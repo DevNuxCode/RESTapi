@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=iOhIV0_23qc&list=PLnfMiP0v59hAUA6QJNKBwKJyq5_gFkCYL&index=4
+
+
+
+INSERT INTO item (nombre, precio, descripcion, img_url, inventario, dispo, user_id)
+VALUES
+('Producto A', 19.99, 'Descripción de producto A', 'https://example.com/productA.jpg', TRUE, TRUE, 1),
+('Producto B', 25.00, 'Descripción de producto B', 'https://example.com/productB.jpg', TRUE, TRUE, 1),
+('Producto C', 14.99, 'Descripción de producto C', 'https://example.com/productC.jpg', TRUE, FALSE, 1),
+('Producto D', 30.00, 'Descripción de producto D', 'https://example.com/productD.jpg', TRUE, FALSE, 1),
+('Producto E', 22.99, 'Descripción de producto E', 'https://example.com/productE.jpg', TRUE, FALSE, 1),
+('Producto F', 18.00, 'Descripción de producto F', 'https://example.com/productF.jpg', TRUE, TRUE, 1);
+
+
+Colocar un mismo valor a una columna:
+UPDATE item SET img_url = 'https://www.python.distribuidoravega.cl/py/wp-content/uploads/2024/12/una-ballena-volando-sobre-el-mar-con-un-nino-montandola-con-una-bufanda-roja-gorra-y-lentes-de-aviador-realista-con-un-efecto-cinematografico-full-4k.jpg';
+
